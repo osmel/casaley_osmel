@@ -12,7 +12,7 @@ class Home extends CI_Controller {
 
 
 	public function index(){
-		print_r("expression");die;
+
 
 		$this->dashboard();
 	}
@@ -24,7 +24,6 @@ class Home extends CI_Controller {
 		//tiempo comienzo
 		//$this->session->set_userdata('tiempo', "00:10");
 
-		print_r("adasd"); die;
 
 		self::configuraciones();
 		$data['nodefinido_todavia']        = '';

@@ -15,7 +15,7 @@
 */
 #$config['base_url']	='http://107.170.44.215/'; // 'http://45.55.85.45';
 #$config['base_url']	='http://promoscasaley.com.mx/'; // 'http://45.55.85.45';
-$config['base_url']	='casaley.com.dev/'; 
+$config['base_url']	='http://casaley.dev.com/'; 
 /*
 |--------------------------------------------------------------------------
 | Index File
