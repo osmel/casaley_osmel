@@ -1,0 +1,1188 @@
+@charset 'utf-8';
+
+@import url('https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Palanquin+Dark:400,500,600,700');
+
+body {
+  background-color: #e8d413;
+  font-family: 'Oswald';
+  font-weight: normal; 
+}
+
+h1 {
+  font-family: 'Palanquin Dark', sans-serif;
+  color: #eb2024;
+  font-size: 52px;
+  font-weight: bold;
+}
+p {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.menu-top {
+  background-color: transparent;
+  background-image: url(../img/curvaTop.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: 0 -25px;
+  height: 200px;
+  border-radius: 0;
+}
+.menu-top .navbar-brand img {
+  width: 130px;
+  height: auto;
+}
+
+.menu-top .login_out {
+  float: right;
+  top: 0;
+  right: 0;
+  margin-top: 15px;
+  margin-right: 15px;
+  font-size: 12px;
+}
+.menu-top .login_out > ul > li > a {
+  padding-right: 0;
+  text-decoration: none;
+}
+.menu-top .login_out > ul {
+  list-style-type: none;
+}
+
+a {
+  -webkit-transition: color 0.5s ease;
+  -moz-transition: color 0.5s ease;
+  -ms-transition: color 0.5s ease;
+  -o-transition: color 0.5s ease;
+  transition: color 0.5s ease;
+}
+
+#reg_ticket,
+#mecanica,
+#legales,
+.entrar-cuenta,
+.registro-usuarios,
+.mis-tickets,
+.aviso {
+  padding-top: 80px;
+}
+#reg_ticket {
+  
+}
+#mecanica {
+  background-color: transparent;
+}
+#legales {
+  background-color: transparent;
+  padding-top: 100px;
+}
+#legales p {
+  text-align: justify;
+  color: #a81d22;
+}
+.registro-usuarios {
+  padding-bottom: 80px;
+}
+.ver-completo {
+  background-color: #000000;
+  width: 207px;
+  height: auto;
+  border: none;
+  color: #fff !important;
+  font-size: 18px;
+  padding-top: 12px;
+  text-transform: uppercase;
+  padding-bottom: 12px;
+  border-radius: 0;
+}
+.ver-completo:hover {
+  background-color: #000;
+}
+
+
+.aviso{
+ color: #a81d22;
+}
+.aviso ul,
+.aviso ol {
+  margin-left: 10px !important;
+  padding-left: 10px !important;
+}
+
+/*Checkbox*/
+input[type=checkbox].css-checkbox {
+              position:absolute; z-index:-1000; left:-1000px; overflow: hidden;
+              clip: rect(0 0 0 0); height:1px; width:1px; margin:-1px; padding:0; border:0;
+            }
+
+            input[type=checkbox].css-checkbox + label.css-label {
+              padding-left:33px;
+              height:28px; 
+              display:inline-block;
+              line-height:28px;
+              background-repeat:no-repeat;
+              background-position: 0 0;
+              font-size:28px;
+              vertical-align:middle;
+              cursor:pointer;
+
+            }
+
+            input[type=checkbox].css-checkbox:checked + label.css-label {
+              background-position: 0 -28px;
+            }
+            label.css-label {
+        background-image:url(../img/csscheck.png);
+        -webkit-touch-callout: none;
+        -webkit-user-select: none;
+        -khtml-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+      }
+
+footer {
+  background-color: #ffffff;
+  color: #5c5b5f;
+  font-size: 10px;
+  padding: 0 0 20px 0;
+  z-index: 999;
+  position: relative;
+}
+footer a {
+  
+}
+footer a:hover, footer a:active {
+  color: #fcc3c4;
+  text-decoration: none;
+}
+footer p {
+  margin-bottom: 0;
+}
+
+img.curvaf {
+  width: 100%;
+  height: auto;
+  display: block;
+  margin-top: -100px;
+  position: relative;
+  z-index: 999;
+}
+
+
+
+h2 {
+  color: grey;
+}
+@media screen and (min-width: 1400px) {
+  .container {
+    width: 1400px;  
+  }
+}
+
+@media screen and (max-width: 1399px) {
+  .container {
+    width: 100%;  
+  }
+}
+
+
+.navbar-nav > li > a {
+  font-weight: initial;
+  text-transform: uppercase;
+  padding: 10px 7px;
+  line-height: 15px;
+}
+
+.menu-top li a {
+  color: #eb2024;
+  text-transform: uppercase;
+  padding-right: 30px;
+}
+.menu-top li a:hover, .menu-top li a:focus {
+  background-color: transparent;
+  color: #a40f12;
+}
+.menu-top .navbar-nav.navegacion li:after {
+  content: " ";
+  width: 20px;
+  height: 20px;
+  background-image: url(../img/corazon.png); 
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100%;
+  display: block;
+  position: absolute;
+  top: 7px;
+  right: 0;
+}
+.menu-top .navbar-nav.navegacion li:last-child:after {
+  content: none;
+}
+.menu-top .navbar-nav.navegacion li:last-child a {
+  padding-right: 10px;
+}
+
+.menu-top .navegacion {
+  font-size: 16px;
+  margin-top: 7px;
+  /*float: none;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  -webkit-transform:translateX(-50%);
+  -moz-transform:translateX(-50%);
+  -ms-transform:translateX(-50%);
+  -o-transform:translateX(-50%);
+  transform:translateX(-50%);*/
+}
+
+.navbar-nav>li.logo_casaley {
+  border: none;
+  height: auto;
+}
+li.logo_casaley img {
+  margin-top: -90px;
+}
+.desabilitado {
+  pointer-events:none;
+  opacity: .3;
+}
+
+
+.intro.juego {
+  padding-top: 180px;
+  padding-bottom: 190px;
+}
+
+
+
+/*JUEGO*/
+.wheelContainer {
+  margin-bottom: 60px;
+}
+.wheel g:nth-child(even) path {
+  fill:#a81d22;
+  stroke:#fff;
+}
+.wheel g:nth-child(odd) path {
+  fill:#ffffff;
+}
+.valueContainer g text {
+  font-size: 3em;
+  font-weight: bolder;
+}
+.valueContainer g:nth-child(even) text {
+  fill: #ffffff;
+}
+.valueContainer g:nth-child(odd) text {
+  fill:#a81d22;
+}
+.wheelOutline circle {
+  stroke: #f01d30;
+}
+.peg {
+  fill:#a81d22;
+  stroke:#fff;
+}
+.toast {
+  background-color: transparent !important;
+  box-shadow: none !important; 
+}
+.logo_centro {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -75px;
+  margin-top: -40px;
+}
+
+.contadores {
+  color: #ffffff;
+  z-index: 999;
+}
+.contadores .countdown,
+.contadores .cant {
+  font-size: 68px;
+  font-weight: bolder;
+}
+.contadores h5 {
+  font-weight: 200;
+  margin-top: 0;
+}
+.contadores div:nth-child(2),
+.contadores div:nth-child(3) {
+
+}
+.cuantos {
+  font-size: 36px;
+}
+img.reloj {
+  float: none;
+  margin: 0 auto;
+  max-width: 165px;
+}
+input#cant_botones {
+      max-width: 170px;
+    font-size: 39px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    color: #000 !important;
+}
+.contadores button.spinBtn {
+  max-width: 170px;
+    font-size: 26px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+
+.intro .txt {
+	margin-top: 10%;
+}
+.txt h3 {
+	line-height: 37px;
+	font-weight: 600;
+}
+.txt p {
+	line-height: 26px;
+  	font-size: 16px;
+  	font-weight: lighter;
+}
+.textura {	
+	min-height: 650px;
+	color: #ffffff;
+}
+#aviso{
+	text-decoration: none !important;
+	color: #ababab !important;
+	font-weight: lighter;
+}
+.aviso{
+	  margin-top: 3px;
+
+}
+.servicios {
+	background-color: #fff;
+	text-align: center;
+	padding: 50px 0;
+}
+.servicios h2 {
+	font-size: 36px;
+	font-weight: 600;
+	text-decoration: underline;
+	color: #1753a4;
+}
+.seccion {
+	text-align: center;
+}
+.empresas {
+	background-color: #61c81f;
+	color: #ffffff;
+	padding: 50px 0;
+}
+.empresas .icono, .candidatos .icono {
+	font-size: 32px;
+  	font-weight: 600;
+}
+.empresas .icono img, .candidatos .icono img {
+	margin: 0 20px 0 0;
+}
+.candidatos {
+	background-color: #ff7427;
+	color: #ffffff;
+	padding: 50px 0;
+}
+.btn-enlace {
+	text-align: center;
+}
+
+.footer {
+	background-color: #1753a4;
+	padding: 10px 0;
+  height: auto;
+  color: #fff;
+  font-weight: lighter;
+}
+.footer a{
+  color: #fff;
+  font-weight: 600;
+}
+.form-ticket {
+  background-color: #cf1a03;
+  padding: 10px;
+}
+
+form#form_registrar_ticket {
+  font-weight: normal;
+}
+form#form_registrar_ticket label {
+  color: #fff;
+  font-size: 36px;
+}
+form#form_registrar_ticket input[type="text"] {
+  color: #000000;
+  background-color: #ffffff;
+  border: 4px solid #000000;
+  border-radius: 0;
+  font-size: 32px;
+  line-height: 41px;
+  height: auto;
+  padding-top: 4px;
+  padding-bottom: 3px;
+}
+
+form#form_registrar_ticket input[type="text"]::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #000000;
+}
+form#form_registrar_ticket input[type="text"]::-moz-placeholder { /* Firefox 19+ */
+  color: #000000;
+}
+form#form_registrar_ticket input[type="text"]:-ms-input-placeholder { /* IE 10+ */
+  color: #000000;
+}
+form#form_registrar_ticket input[type="text"]:-moz-placeholder { /* Firefox 18- */
+  color: #000000;
+}
+form#form_registrar_ticket button[type="submit"] {
+  font-size: 20px;
+  background-color: #eb2024;
+  border-top-color: #f37e81; 
+  border-bottom-color: #751012; 
+  border-radius: 0;
+  display: block;
+  margin: 0 auto;
+}
+
+
+/*mi marcador*/
+
+.mimarcador {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.nom_usuario {
+  margin: 0px auto 30px;
+  text-align: center;
+  width: 207px;
+  height: 54px;
+  color: #fff;
+  padding-top: 12px;
+}
+a.color-blanco {
+  position: absolute;
+  color: #ebbb34;
+  top: 10px;
+  right: 10px;
+  font-size: 14px;
+}
+
+p.datos {
+  color: #fff;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+p.datos + hr {
+  border-top: none;
+  border-bottom: 2px dotted #fff;
+}
+p.datos + hr:last-child {
+  display: none;
+}
+p.datos span:nth-child(2) {
+  color: #ebbb34;
+  font-size: 2.7em;
+  display: block;
+  font-weight: bold;
+}
+
+.tablagral p.datos {
+  font-size: 20px;
+  margin-top: 7px;
+  margin-bottom: 7px;
+}
+.tablagral p.datos + hr {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+.scroll {
+  max-height: 350px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  padding-right: 3px;
+  margin-top: 10px;
+}
+
+/*scroll*/
+
+/* SCROLLBAR CSS3 */
+        .scroll::-webkit-scrollbar {
+          width: 10px;
+          background: transparent;
+        }
+        .scroll::-webkit-scrollbar-button {
+          width:8px;
+          height: 5px;
+        }
+        .scroll::-webkit-scrollbar-track {
+          background: rgba(34,62,123,.4);
+          /*border:thin solid transparent;*/
+          /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+          /*-webkit-border-radius: 10px;
+          border-radius: 10px;*/
+        }
+        .scroll::-webkit-scrollbar-thumb {
+          background: rgba(235,187,52,.5);
+          /*-webkit-box-shadow:   inset 0 1px 0 rgba(255,255,225,.5),
+                        inset 1px 0 0 rgba(255,255,255,.4),
+                        inset 0 1px 2px rgba(255,255,255,.3);
+          border:thin solid #232c34;*/
+          /*border-radius: 10px;
+          -webkit-border-radius: 10px;*/
+        }
+        .scroll::-webkit-scrollbar-thumb:hover {
+            background: rgba(235,187,52,1);
+        }
+        
+        .scroll::-webkit-scrollbar-thumb:window-inactive {
+            background: rgba(77,161,112,.6); 
+        }
+
+
+/*REGISTRO*/
+
+#form_reg_participantes label {
+  color: #000;
+  text-align: left;
+  line-height: 24px;
+  padding-top: 3px;
+  font-size: 16px;
+  font-weight: 300;
+}
+#form_reg_participantes,
+#form_reg_participantes a {
+  color: #000000;
+}
+
+#form_reg_participantes input {
+  padding-top: 7px;
+  padding-bottom: 4px;
+  height: auto;
+  background-color: #fff;
+  border: 4px solid #000000;
+  border-radius: 0;
+}
+#form_reg_participantes select {
+  height: 40px;
+  background-color: #fff;
+  border: 4px solid #000000;
+  border-radius: 0;
+  padding-left: 10px;
+
+  background-image: url(../img/flechita-select.jpg);
+  background-repeat: no-repeat;
+  background-position: center right 10px;
+
+  -webkit-appearance: none;
+  -moz-appearance:    none;
+  appearance:         none;
+}
+
+#form_reg_participantes .date {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+  .date-dropdowns select.day,
+  .date-dropdowns select.month {border-right: 0 !important; }
+#form_reg_participantes .date .input-group-addon {
+  border: 4px solid #ebbb34;
+  padding: 4px 12px;
+  background-color: #ebbb34;
+}
+
+#form_reg_participantes button[type="submit"] {
+  background-color: #000000;
+  width: 207px;
+  height: 54px;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+#form_reg_participantes .legales {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+select.day {width: 25%}
+select.month {width: 50%}
+select.year {width: 25%}
+
+/*REGISTRO*/
+
+#form_participantes {
+  padding-top: 80px;
+  padding-bottom: 100px
+}
+#form_participantes label {
+      color: #000;
+    text-align: left;
+    line-height: 24px;
+    padding-top: 3px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#form_participantes p {
+  color: #fff;
+}
+
+#form_participantes input {
+      padding-top: 7px;
+    padding-bottom: 4px;
+    height: auto;
+    background-color: #fff;
+    border: 4px solid #000000;
+    border-radius: 0;
+}
+#form_participantes select {
+  height: 40px;
+  background-color: #fff;
+  border: 4px solid #3d67b9;
+}
+
+#form_participantes .date {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+#form_participantes .date .input-group-addon {
+  border: 4px solid #ebbb34;
+  padding: 4px 12px;
+  background-color: #ebbb34;
+}
+
+#form_participantes button[type="submit"] {
+  background-color: #000000;
+    width: 207px;
+    height: 54px;
+    border: none;
+    border-radius: 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+#form_participantes .legales {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h2.inst {
+  color: #ebbb34;
+}
+p.instrucciones {
+  font-size: 16px;
+  color: grey;
+}
+.cont {
+  text-align: center;
+}
+
+.cont button.close {
+  float: initial;  
+  margin-top: 5px;
+  margin-bottom: 0px;
+  opacity: 1;
+
+  /*-webkit-transform: translateY(30px);
+  -moz-transform: translateY(30px);
+  -ms-transform: translateY(30px);
+  -o-transform: translateY(30px);
+  transform: translateY(30px);*/
+}
+
+.cont button.close.continuar span {
+  background-color: #5bc0de;  
+  padding: 8px 15px;
+  color: #fff;
+  text-shadow: none;
+  
+}
+
+/*LOG IN*/
+
+
+#form_logueo_participante input[type="text"],
+#form_logueo_participante input[type="email"],
+#form_logueo_participante input[type="password"] {
+  padding-top: 7px;
+  padding-bottom: 4px;
+  height: auto;
+  background-color: #fff;
+  border: 4px solid #000000;
+  border-radius: 0;
+  font-size: 20px;
+}
+
+button.ingresar {
+  background-color: #000000;
+  width: 207px;
+  height: 54px;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  padding-top: 10px;
+}
+.crear-cta {
+  color: rgba(255,255,255,.7);
+  margin-top: 15px;
+  display: inline-block;
+}
+.crear-cta:hover {
+  color: rgba(255,255,255,1);
+  text-decoration: none;
+}
+
+
+/*help block*/
+
+.help-block {
+  font-size: 12px;
+  display: block;
+  margin-top: 1px;
+  margin-bottom: 0px;
+  color: #ebbb34 !important;
+}
+.help-block p,
+.help-block span,
+.help-block {
+  margin-bottom: 0px;
+  font-size: 14px;
+  color: #fff !important;
+  font-weight: 100;
+}
+.help-block b,
+.help-block strong {
+  font-weight: 400 !important;
+}
+
+
+
+/*AVISO*/
+
+.aviso {
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+
+/*logout top*/
+
+.login_out .dropdown-menu {
+  background-color: #000000;
+  border-radius: 0;
+  left: initial;
+  right: 0;
+}
+
+.login_out .dropdown-menu>li>a {
+    color: #fff;
+}
+
+.login_out .dropdown-menu>li>a:hover {
+  background-color: rgba(136,20,23,.8);
+}
+
+
+p.legal {
+  clear: both;
+    font-size: 12px;
+    margin-top: 35px;
+}
+
+.modal-gracias {
+  background-color: transparent;
+  box-shadow: none;
+  border: none;
+
+  background-image: url(../img/graciasBG.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.modal-gracias .modal-body {
+  height: 430px;
+}
+.modal-gracias .modal-header,
+.modal-gracias .modal-footer {
+  border: none;
+  height: 60px;
+}
+.modal-gracias button.compartir {
+  background-color: transparent;
+  border: none; 
+  margin: 0 auto; 
+  display: block;
+  position:absolute;
+  bottom:0;
+  left:50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.modal-gracias .modal-header button.close,
+.modal-instrucciones .modal-header button.close {
+      background-color: #fff;
+    opacity: 1;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    color: red;
+    font-size: 33px;
+}
+.modal-backdrop {
+    background-color: #e7d300 !important;
+}
+
+
+
+.modal-instrucciones .modal-header,
+.modal-instrucciones .modal-footer {
+  border: none;
+}
+.modal-instrucciones {
+  background-color: #eb2024;
+  border: none;
+}
+.modal-instrucciones h4,
+.modal-instrucciones h2 {
+  color: #fff !important;
+}
+
+button.continuar {
+  background-color: #000000;
+  width: 207px;
+  height: 54px;
+  border: none;
+  border-radius: 0;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300
+}
+button.continuar:hover {
+  color: #fff !important;
+}
+
+
+footer .vigencia {
+  font-size: 14px;
+}
+
+.dudas p {
+  font-family: 'Palanquin Dark', sans-serif;
+  font-size: 24px;
+  color: #eb2024;
+  margin-top: 25px;
+}
+.ver-ticket {
+  cursor:pointer;
+  margin-top: 12px;
+  display: inline-block;
+}
+.ventana-ejemplos {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,.80);
+  z-index: 999;
+  padding-top: 30px;
+  border: 4px solid #fbbc19;
+  z-index: -100;
+  opacity: 0;
+
+  -webkit-transition: opacity 0.5s ease-in-out;
+  -moz-transition: opacity 0.5s ease-in-out;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.slick-slide img {
+  padding: 5px;
+}
+.slick-prev:before {
+  content: "\e079";
+  font-family: 'Glyphicons Halflings';
+}
+.slick-next:before {
+  content: "\e080";
+  font-family: 'Glyphicons Halflings';
+}
+.ventana-ejemplos .exp {
+  margin-top: 10px;
+}
+.ventana-ejemplos .exp span {
+  color: #fff;
+  margin: 0 15px;
+}
+.ventana-ejemplos .exp span:before {
+  content: " ";
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: #b77513;
+  margin-right: 7px;
+}
+.ventana-ejemplos .exp span:nth-child(2):before {
+  background-color: #fcf400;
+}
+.ventana-ejemplos .exp span:nth-child(3):before {
+  background-color: #79ff00;
+}
+.ventana-ejemplos .exp span:nth-child(4):before {
+  background-color: #00e0ff;
+}
+.ventana-ejemplos .close {
+    color: #fbbc19;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 25px;
+    cursor: pointer;
+    display: block;
+    opacity: 1;
+}
+@media screen and (max-width: 768px) {
+  .ventana-ejemplos .exp span {
+    display: block;
+    text-align: left !important;
+    padding-left: 20px;
+  }
+}
+
+
+@media screen and (min-width: 1201px) {
+  .navegacion {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: inline-table;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .menu-top {
+    background-position: 0 -10px;
+  }
+}
+@media screen and (max-width: 1330px) {
+  li.logo_casaley img {
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  li.logo_casaley img {
+    max-width: 250px;
+  }
+  .navbar-default .navbar-nav>li>a {
+    font-size: 12px;
+  }
+  .menu-top {
+    background-position: 0 -px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .menu-top {
+    background-image: none;
+    height: auto;
+    background-color: rgba(244,192,0,.95);
+  }
+  .menu-top .navegacion {
+    margin-top: 35px;
+  }
+  .menu-top li a {
+    text-align: center;
+    padding-right: 10px;
+  }
+  .menu-top .navbar-nav.navegacion li:after {
+    content: none;
+  }
+  button.navbar-toggle {
+    background-color: #881417;
+    border-radius: 0;
+  }
+  .navbar-toggle .icon-bar {
+    background-color: #C73E3E;
+  }
+  .menu-top .login_out {
+    float: none;
+    position: absolute;
+    right: 60px;
+  }
+
+
+
+  .navbar-nav>li.logo_casaley {
+    display: none;
+  }
+  .navbar-nav>li {
+    float: none;
+    border: none;
+    height: 40px;
+    display: block;
+  }
+  .navbar-nav {
+    margin-top: 0px;
+  }
+  .navbar-default .navbar-nav>li>a br{
+    display: none;
+  }
+  .navbar-collapse {
+    border-top: 0 !important;
+    border-bottom: 0 !important;
+  }
+  
+  .navbar-default .navbar-toggle,
+  .navbar-default .navbar-toggle:hover,
+  .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+    border: none;
+    margin-right: 0;
+  }
+  .navbar-default .navbar-toggle .icon-bar {
+    background-color: #ebbb34;
+    height: 3px;
+  }
+  .login_out {
+    top: 17px;
+    right: 65px;
+  }
+  .login_out .dropdown-menu {
+    left: initial;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .wheelSVG {
+    transform: translate(-50%, 0%) matrix(1.3, 0, 0, 1.3, 0, 0) !important;
+  }
+  .wheelContainer {
+    overflow: hidden;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .logo_centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -60px;
+    margin-top: -35px;
+    width: 120px !important;
+  }
+
+}
+@media screen and (max-width: 767px) {
+  
+  form#registra {
+    margin-top: -35px;
+  }
+  
+}
+
+@media screen and (max-width: 640px) {
+  .logo_promo_movil img,
+  .logo_ucl img {
+    height: 100px;
+    width: auto;
+  }
+  .lata .avion {
+    width: 190%;
+    right: 20px;
+  }
+  button.registrar img {
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .nom_usuario {
+    margin: 20px auto 30px;
+  }
+  p.datos {
+    font-size: 24px;
+  }
+  .logo_centro {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -45px;
+    margin-top: -25px;
+    width: 90px !important;
+  }
+  .toast {
+    width: 100%;
+  }
+  .contadores div:nth-child(2), .contadores div:nth-child(3) {
+    transform: translateY(20px) !important;
+  }
+  .contadores .countdown, .contadores .cant {
+    font-size: 38px;
+  }
+  .contadores h5 {
+    font-size: 12px;
+        clear: both;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .cuantos{
+    font-size: 26px;
+  }
+
+}
+
+@media screen and (max-width: 360px) {
+  
+  .login_out {
+    top: 17px;
+    right: 50px;
+  }
+  .navbar-default .navbar-toggle, .navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    margin-right: -10px;
+  }
+  form#registra input[type="text"] {
+    font-size: 24px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+  }
+  
+  p.datos {
+    font-size: 18px;
+  }
+  .wheelSVG {
+    transform: translate(-50%, 0%) matrix(1.3, 0, 0, 1.3, 0, 0) !important;
+  }
+}
+
+
+
+
+
+
