@@ -29,7 +29,7 @@
 						<img src="<?php echo base_url().$this->session->userdata('c6'); ?>" class="img-responsive">
 
 						<div class="form-ticket">
-							<!-- <form id="registra">							
+							<form id="registra">							
 								<div class="form-group">
 									<input type="text" class="form-control" id="ticket" name="ticket" placeholder="NÚMERO DE TICKET">
 									 <span class="help-block" style="color:white;" id="msg_general"> </span> 
@@ -37,7 +37,7 @@
 								<button type="submit" class="btn btn-danger registrar">
 									¡REGISTRA TU TICKET!
 								</button>
-							</form> -->
+							</form> 
 							<img src="https://www.promoscasaley.com.mx/img/image001.jpg" style="width: 100%;">
 						</div>
 						

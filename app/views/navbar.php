@@ -55,9 +55,9 @@
 
 	<div class="collapse navbar-collapse" id="main-navbar">
 		<ul class="nav navbar-nav navegacion" id="menu_opciones">
-			<!-- <li>
+			<li>
 				<a href="<?php echo base_url(); ?>#reg_ticket" class="">registro tickets</a> 
-			</li> -->
+			</li> 
 			<li>
 				<a href="<?php echo base_url(); ?>#mecanica" class="">mecánica y premios</a> 
 			</li>
@@ -67,9 +67,9 @@
 			<li>
 				<a href="<?php echo base_url(); ?>registro_ticket" class="">Ingresar</a> 
 			</li>
-			<!-- <li>
+			 <li>
 				<a href="<?php echo base_url(); ?>registro_usuario" class="">crear cuenta</a> 
-			</li> -->
+			</li> 
 		</ul>
 	</div>
 	

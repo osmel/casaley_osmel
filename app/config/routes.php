@@ -128,8 +128,8 @@ $route['procesando_historico_participantes']      = 'main/procesando_historico_p
 //////////////////////////////////Registro de usuarios//////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////
 
-//$route['registro_usuario']        = 'registro/nuevo_registro';
-//$route['validar_registros']        = 'registro/validar_registros';
+$route['registro_usuario']        = 'registro/nuevo_registro';
+$route['validar_registros']        = 'registro/validar_registros';
 $route['desconectar']							= 'registro/desconectar_participante';
 
 $route['validar_login_participante']        = 'registro/validar_login_participante';
@@ -138,10 +138,10 @@ $route['validar_login_participante']        = 'registro/validar_login_participan
 
 
 $route['registro_ticket']        = 'registro/registro_ticket';
-//$route['validar_tickets']	= 'registro/validar_tickets';
-//$route['validar_premios']	= 'registro/validar_premios';
+$route['validar_tickets']	= 'registro/validar_tickets';
+$route['validar_premios']	= 'registro/validar_premios';
 
-//$route['validar_registrar_ticket']	= 'registro/validar_registrar_ticket';
+$route['validar_registrar_ticket']	= 'registro/validar_registrar_ticket';
 
 
 
@@ -151,13 +151,13 @@ $route['validar_recuperar_participante']	= 'registro/validar_recuperar_participa
 
 
 
-//$route['registro_juego']	= 'registro/registro_juego';
+$route['registro_juego']	= 'registro/registro_juego';
 
 
 
 
 $route['record/(:any)']			= 'registro/record/$1';
-//$route['publico']			= 'registro/publico';
+$route['publico']			= 'registro/publico';
 
 
 //número de conteo del juego
@@ -172,13 +172,13 @@ $route['tabla_general']      = 'registro/tabla_general';
 
 
 
-//$route['proc_modal_instrucciones']		= 'registro/proc_modal_instrucciones';
-//$route['proc_modal_reintentar']			= 'registro/proc_modal_reintentar';
+$route['proc_modal_instrucciones']		= 'registro/proc_modal_instrucciones';
+$route['proc_modal_reintentar']			= 'registro/proc_modal_reintentar';
 
 
 
 
-//$route['juego_json']		= 'registro/juego_json';
+$route['juego_json']		= 'registro/juego_json';
 
 
 

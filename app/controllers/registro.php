@@ -133,7 +133,7 @@ class Registro extends CI_Controller {
 		} else {  //nuevo registro
 			  $data['premios']   = $this->catalogo->listado_premios();
 			  $data['estados']   = $this->modelo_registro->listado_estados();
-			  $this->load->view( 'registros/registro',$data );   
+			  $this->load->view( 'registros/registro2',$data );   
 		}    
 	}
 
@@ -238,7 +238,7 @@ class Registro extends CI_Controller {
 										$dato['email']   			    = $usuario['email'];   			
 										$dato['contrasena']				= $usuario['contrasena'];				
 
-										
+										/*
 										//envio de correo para notificar alta en usuarios del sistema
 										$desde = $this->session->userdata('c1');
 										$esp_nuevo = $usuario['email'];
@@ -248,6 +248,8 @@ class Registro extends CI_Controller {
 										$this->email->message( $this->load->view('admin/correos/alta_usuario', $dato, TRUE ) );
 
 										if ($this->email->send()) {
+											*/
+										if (true) {	
 											//envio correo
 										} else {
 												 $mis_errores["general"] = '<span class="error"><b>E01</b> - El nuevo participante no pudo ser agregado</span>';
