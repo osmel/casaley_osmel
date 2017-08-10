@@ -251,6 +251,7 @@ class Registro extends CI_Controller {
 											*/
 										if (true) {	
 											//envio correo
+											$mis_errores = true;
 										} else {
 												 $mis_errores["general"] = '<span class="error"><b>E01</b> - El nuevo participante no pudo ser agregado</span>';
 										}

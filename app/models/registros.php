@@ -63,7 +63,7 @@
             $this->db->set( 'id_perfil', $data['id_perfil']);
             $this->db->set( 'creacion',  gmt_to_local( $timestamp, $this->timezone, TRUE) );
 
-            //$this->db->insert($this->participantes );
+            $this->db->insert($this->participantes );
 
             if ($this->db->affected_rows() > 0){
                 return TRUE;
